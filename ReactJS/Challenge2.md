@@ -4,7 +4,7 @@ Now we have the layout, we want to get some interaction.
 
 Let's create the **Add** component.
 
-For this we need to look into React Router.  This allows us to target components as though they are web pages.  Instead of a page being loaded the react router captures the URL click and instead turns it into a DOM render.
+For this we need to look into React Router.  This allows us to target components as though they are web pages.  Instead of a page being loaded the react router captures the URL click and instead turns it into a DOM render of a particular division.  Add the routes for all the menu options, and the navigation links.
 
 Once you've worked out how to do the react router, you can then create the form which is to add data.
 
