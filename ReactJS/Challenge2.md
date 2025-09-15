@@ -12,6 +12,6 @@ To store the data we will need a state variable.  Since we are working with many
 
 In your footer you should change the number of visitors count to show the number of records in the database.
 
-Everytime you add a new record to the state you should see the number of records in the database increase in the footer, and that value should be available from any page, since the footer is constant.
+Everytime you add a new record to the state you should see the number of records in the database increase in the footer, and that value should be available from any page, since the footer is constant.  Your **button** to add needs to update the parents state, so you'll need to pass the button callback down to the child so that the child can update the parents data.
 
 **NOTE**: it is important where you state is set.  In most cases state goes with the component, but our database state will need to be useable by other components.
